@@ -1,0 +1,13 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      java: corretto11
+    commands:
+      - echo "Building Java app..."
+      - mvn clean package -DskipTests
+artifacts:
+  files:
+    - target/*.jar
+    - appspec.yml
+    - scripts/**/*
