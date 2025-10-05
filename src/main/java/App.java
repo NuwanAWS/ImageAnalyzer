@@ -39,7 +39,7 @@ public class App {
                 .build();
 
         // ---- DOWNLOAD IMAGE ----
-        Path localPath = Paths.get("/tmp/" + key);
+        Path localPath = Paths.get("/home/ec2-user/" + key);
         s3.getObject(GetObjectRequest.builder()
                 .bucket(bucketName)
                 .key(key)
