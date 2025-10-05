@@ -38,6 +38,11 @@
             <artifactId>sns</artifactId>
             <version>2.20.47</version>
         </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>2.0.9</version>
+        </dependency>
     </dependencies>
 
     <build>
