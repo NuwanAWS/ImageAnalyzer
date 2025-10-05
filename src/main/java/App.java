@@ -9,7 +9,7 @@ public class App {
         String messageContent = "Image key: sample.jpg";
 
         // Your SNS topic ARN
-        String topicArn = "arn:aws:sns:eu-north-1:123456789012:myTopic";
+        String topicArn = "arn:aws:sns:eu-north-1:778000733619:mytopic";
 
         // Create the SNS client (must be same region as topic)
         Region region = Region.EU_NORTH_1;
