@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        String bucket = "image-bucket";   // your S3 bucket
+        String bucket = "image-bucket-4-me";   // your S3 bucket
         String key = "sample.jpg";        // image key in S3
         String phoneNumber = "+94773333573"; // E.164 format for SNS
 
