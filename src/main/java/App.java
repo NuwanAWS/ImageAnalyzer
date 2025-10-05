@@ -6,7 +6,7 @@ import software.amazon.awssdk.services.sns.model.PublishResponse;
 public class App {
     public static void main(String[] args) {
         // The S3 key (or any content) you want to send as a message
-        String messageContent = "Image key: sample.jpg";
+        String messageContent = "Ado pakaya, hukanna nam epa harida";
 
         // Your SNS topic ARN
         String topicArn = "arn:aws:sns:eu-north-1:778000733619:mytopic";
